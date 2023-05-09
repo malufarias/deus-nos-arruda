@@ -1,0 +1,98 @@
+/*Aplicação da fonte para a página inteira*/
+* {
+  font-family: Roboto;
+}
+
+/*Aplicação da cor de fundo para a página inteira*/
+body {
+  background-color: #44523b !important;
+}
+
+
+/*Estilo para arredondar as pontas do card de contato e das imagens do carousel*/
+#card-contato,
+.d-block {
+  border-radius: 15px;
+}
+
+/*Espaçamento para os elementos do título do card de sobre e do copyright*/
+.card-title,
+#copyright {
+  margin-top: 20px;
+}
+
+/*Aplicação de cor para os elementos de texto*/
+.card-text,
+.card-title,
+.nav-link,
+#sobre-terapias,
+#sobre-title {
+  color: #8d61ae;
+}
+
+/*Espaçamento para os elementos de carousel*/
+.carousel {
+  margin-top: 50px;
+}
+
+/*Tamanho de fonte para o copyright ficar menor*/
+#copyright {
+  font-size: 10px;  
+}
+
+/*Alinhamento de textos e elementos*/
+#copyright,
+#initial,
+#instagram,
+#sobre-terapias,
+#sobre-title {
+  text-align: center;
+}
+
+/*Espaçamento para os elementos de contato, sobre e terapias*/
+#contato,
+#sobre,
+#terapias {
+  margin-top: 200px;
+}
+
+/*Controle de tamanho para o ícone do instagram*/
+#instagram-icon {
+  height: 50px;
+  width: 50px;
+}
+
+/*Controle de tamanho, margem e arredondamento da imagem de logo*/
+#logo {
+  border-radius: 50%;
+  margin-top: 119px;
+  max-width: 50%;
+  width: 380px;
+}
+
+/*Espaçamento para os elementos de navegação*/
+#nav-group {
+  margin-top: 100px;
+}
+
+/*Formatação de alinhamento do texto de sobre*/
+#sobre {
+  text-align: justify;
+}
+
+/*Espçamento lateral das sessões de sobre e terapias*/
+#sobre,
+#terapias {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/*Arredondamento das bordas da imagem de sobre*/
+#sobre-img {
+  border-radius: 5%;
+}
+
+.white-text {
+  color: white !important;
+  font-weight: bold;
+}

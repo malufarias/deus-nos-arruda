@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Deus nos arruda</title>
+    <link href="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>    
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-sm  bg-light flex-sm-nowrap flex-wrap"
+        style="background-color: #44523b !important;">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <span class="navbar-brand flex-grow-1">Deus nos arruda</span> -->
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" style="color: white;">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleSlidesOnly" style="color: white;">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" style="color: white;">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-grow-1">
+                <!-- cabeçalho -->
+            </div>
+        </div>
+    </nav>
+    <!-- carrosel -->
+    <div id="initial">
+        <div class="col-12">
+            <img id="logo" src="C:\Users\claus\Documents\Curso JS\HOW V\assets\cab5.png">
+        </div>
+    </div>
+    <!-- Sobre nós -->
+    <div class="container mt-5" id="sobre">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="C:\Users\claus\Documents\Curso JS\HOW V\assets\sabonetes pretos quadrado.png"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Nós queremos fazer do mundo um lugar melhor e mais sustentável</h4>
+                        <p class="card-text"> Sim, nós acreditamos que o consumo consciente pode mudar o mundo.
+
+                        <p class="card-text"> Nossos produtos são artesanais, veganos e não testados em animais. </p>
+
+                        <p class="card-text">Priorizamos os cosméticos sólidos, reduzindo o desperdício e a produção de
+                            lixo. </p>
+
+                        </p>
+                        <p class="card-text"> Somos uma pequena empresa criada por farmacêuticas que acreditam na força
+                            do empreendedorismo feminino e nossa equipe é totalmente feminina. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabonetes</h5>
+                        <p class="card-text">Nossos sabonetes foram criados para limpar a sua pele sem agredir ou
+                            provocar alergias.
+                        </p>
+                        <p class="card-text"> Nosso campeão de vendas é o sabonete de carvão com óleo essencial de
+                            melaleuca, ideal para peles oleosas e/ou acneicas. Através dos óleos vegetais e a potência
+                            dos óleos essenciais, tratamos até mesmo as peles mais secas e sensibilizadas.</p>
+                        <p class="card-text">Caso deseje algo ainda mais específico para sua pele, criamos uma
+                            formulação com base nas suas preferências. </p>
+
+                        <p class="text-center mt-4"> Ninguém sai da Arrudinha sem o sabonete perfeito!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="C:\Users\claus\Documents\Curso JS\HOW V\assets\coloridos quadrado.png"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Foto sabonetes -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="C:\Users\claus\Documents\Curso JS\HOW V\assets\sabonetesjpg.jpg"
+                    alt="Primeiro Slide">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Fale Conosco -->
+    <div id="contato" class="m-5">
+        <div class="container p-5">
+            <h2>FALE CONOSCO</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Seu nome</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Seu nome completo</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Seu e-mail</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Título</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            </form>
+        </div>
+    </div>
+    <div style="background-color: #44523b; width: 100%;">
+        <footer id="footer" class="p-5">
+            <!--Final -->
+            <div class="text-center mt-3">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="C:\Users\claus\Documents\Curso JS\HOW V\assets\logo3.png">
+                    </div>
+                    <div class="col-sm-4 pt-5" id="info-footer">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="C:\Users\claus\Documents\Curso JS\HOW V\assets\logovegan2.png">
+                    </div>
+                </div>
+                <div id="copyright">
+                    <p style="color: white;">Copyright © 2023 - DEUS NOS ARRUDA · DIREITOS RESERVADOS </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
